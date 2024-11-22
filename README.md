@@ -9,8 +9,7 @@ This is a simple e-commerce web application built using React.js. The project fe
 
 ## Tech Stack
 - **Frontend:** React.js, CSS
-- **Backend/Data Source:** (e.g., API for users : https://jsonplaceholder.typicode.com/users
-- API for products  )
+- **Backend/Data Source:** (e.g., API for users : https://jsonplaceholder.typicode.com/users)
 
 ## Installation
 1. Clone the repository:
