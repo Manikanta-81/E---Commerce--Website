@@ -17,7 +17,7 @@ function MyEffect() {
   }, []);
 
   function handleSubmit(event) {
-    event.preventDefault(); // Prevent the form from submitting and refreshing the page
+    event.preventDefault(); 
     setFormSubmittied(true);
     let id = document.getElementById("id").value;
     let email = document.getElementById("email").value;
@@ -32,12 +32,12 @@ function MyEffect() {
     const { userId, userEmail } = inputObj;
     for (let user of users) {
       if (userId == user.id && userEmail == user.email) {
-        setAuthenticatedUser(user); // Update state with the authenticated user
+        setAuthenticatedUser(user); 
         setAuthMessage("User authenticated successfully");
-        return; // Exit the function once the user is found
+        return; 
       }
     }
-    setAuthenticatedUser(null); // Reset if no user is found
+    setAuthenticatedUser(null); 
     setAuthMessage("User authenticated failed");
   }
 

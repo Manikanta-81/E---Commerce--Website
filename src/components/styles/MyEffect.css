@@ -15,15 +15,15 @@ input {
 
 th,
 td {
-  border: 1px solid #ddd; /* Adds a border to the cells */
-  padding: 10px; /* Adds space inside each cell */
-  text-align: left; /* Aligns text to the left */
+  border: 1px solid #ddd; 
+  padding: 10px;
+  text-align: left; 
 }
 
 table {
-  border-collapse: collapse; /* Ensures there are no gaps between borders */
-  margin: 20px auto; /* Centers the table horizontally and adds space above */
-  width: 80%; /* Optional: Set a width for the table */
+  border-collapse: collapse; 
+  margin: 20px auto; 
+  width: 80%; 
 }
 
 .h1 {
