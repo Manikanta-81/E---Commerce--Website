@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Navbar from "./Navbar";
 import MyEffect from "./MyEffect";
 import About from "../pages/About";
@@ -10,7 +11,7 @@ import Products from "../pages/Products";
 function NavRoutes() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<MyEffect />} />
@@ -19,7 +20,7 @@ function NavRoutes() {
           <Route path="/login" element={<MyEffect />} />
           <Route path="/products" element={<Products />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

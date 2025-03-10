@@ -31,6 +31,7 @@ function MyEffect() {
   function authenticateUser(inputObj, users) {
     const { userId, userEmail } = inputObj;
     for (let user of users) {
+      // eslint-disable-next-line
       if (userId == user.id && userEmail == user.email) {
         setAuthenticatedUser(user); 
         setAuthMessage("User authenticated successfully");
